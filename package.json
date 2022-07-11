@@ -1,25 +1,13 @@
 {
-  "name": "mynote",
+  "name": "vuepress-theme-reco-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "reco_luan",
   "scripts": {
-	"docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hejun311/myNote.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hejun311/myNote/issues"
-  },
-  "homepage": "https://github.com/hejun311/myNote#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7",
-    "vuepress-theme-vdoing": "^1.12.5"
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.14"
   }
 }
